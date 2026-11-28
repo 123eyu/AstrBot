@@ -39,6 +39,11 @@
 - 分块上传的清理任务在没有事件循环时不再留下未等待的协程。
 - The chunked-upload cleanup task no longer leaves an unawaited coroutine when no event loop is running.
 
+### ChatUI header / ChatUI 顶栏
+
+- 双击 ChatUI 顶栏中间的对话标题即可在原处重命名当前对话（聚焦标题后按 Enter 或 F2 也可以）：回车或点别处保存，Esc 取消；只有项目标题、没有打开对话时，以及在模型配置页时不响应。
+- Double-click the conversation title in the middle of the ChatUI header to rename the current conversation in place (or focus the title and press Enter or F2): Enter or clicking elsewhere saves, Esc cancels. A project-only title, or the title on the model provider pages, does nothing.
+
 ### Overview page / 总览页
 
 - 欢迎 → 总览：保留 `/welcome` 地址，显示每日用量对比、系统状态和机器人错误详情。
