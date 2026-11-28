@@ -65,6 +65,10 @@
       "tempStorage": {
         "title": "キャッシュ",
         "subtitle": "一時ディレクトリを自動消去するしきい値。"
+      },
+      "usageData": {
+        "title": "ユーザーエクスペリエンス改善プログラム",
+        "subtitle": "匿名の使用データの収集とオプトアウト。"
       }
     },
     "timePreview": {
